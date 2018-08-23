@@ -2,10 +2,10 @@ require 'pry'
 
 class Card
   attr_reader :value,
-              :suite
-  def initialize(value, suite)
+              :suit
+  def initialize(value, suit)
     @value = value
-    @suite = suite
+    @suit = suit
   end
 
 end
